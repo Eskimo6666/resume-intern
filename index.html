@@ -189,22 +189,28 @@
             font-size: 40px;
             color: #d9d9d9;
             text-align: center;
-            margin-top: 30px;
+            margin-top: -1px;
         }
 
         .main .projects img {
             height: 200px;
-            margin-left: -33px;
+            border:#d6d6d6 1px solid;
             display: block;
         }
 
         .main .projects .link {
             float: right;
-            margin-top: -169px;
-            margin-right: 177px;
+            margin-top: -151px;
+            margin-right: 148px;
         }
         .main .projects .link p{
             margin: 15px 0;
+        }
+        .main .projects .detail ul>li{
+            margin:34px 0;
+        }
+        .main .projects .detail ul>li:first-child{
+            margin-top:5px;
         }
     </style>
 </head>
@@ -274,9 +280,9 @@
                             <h3>童年画板</h3>
                             <div><img src="./painting.jpg" alt=""></div>
                             <div class="link">
-                                <p><a href="https://github.com/Eskimo6666/Canvas-2"
+                                <p><a href="https://github.com/Eskimo6666/Canvas-2" target="_blank"
                                         style="color:rgba(55, 55, 235, 0.897);">a.源码链接</a></p>
-                                <p><a href="https://eskimo6666.github.io/Canvas-2/index.html"
+                                <p><a href="https://eskimo6666.github.io/Canvas-2/index.html" target="_blank"
                                         style="color:rgba(55, 55, 235, 0.897);">b.预览链接</a></p>
                             </div>
 
@@ -286,14 +292,35 @@
                                     viewport</strong>标签解决了屏幕缩放980px的问题</p>
                         </li>
                         <li>
-                            <h3>键盘导航</h3>
-                            <p><a href=""></a>a.源码链接</p>
-                            <p><a href=""></a>b.预览链接</p>
+                                <h3>极简风键盘导航</h3>
+                                <div><img src="./keyboard.png" alt="" width=353px ></div>
+                                <div class="link">
+                                    <p><a href="https://github.com/Eskimo6666/keyboard-nav" target="_blank"
+                                            style="color:rgba(55, 55, 235, 0.897);">a.源码链接</a></p>
+                                    <p><a href="https://eskimo6666.github.io/keyboard-nav/index.html" target="_blank"
+                                            style="color:rgba(55, 55, 235, 0.897);">b.预览链接</a></p>
+                                </div>
+    
+                                <p><strong>c.关键词</strong>：原生JavaScript,CSS3，<strong>localStorage</strong></p>
+                                <p><strong>d.描述</strong>：该项目使用原生JS,CSS实现，主要调用onkeypress
+                                    API,实现了点击键盘跳转对应网页,用户自定义编辑,更新网址logo到键盘图标等功能,完全由我独立开发。<strong>用JS新增节点的方法，</strong>解决了html添加节点很繁琐的问题，<strong>配合CSS3绘制了整个键盘</strong>。用localStorage解决了刷新页面更改配置消失的问题。
+                                    用img src访问对应网址查询参数为<strong>/favicon.ico</strong>的URL,实现了获取网址logo到键盘的效果。
+                                        </p>
                         </li>
                         <li>
-                            <h3>在线简历</h3>
-                            <p><a href=""></a>a.源码链接</p>
-                            <p><a href=""></a>b.预览链接</p>
+                                <h3>童年画板</h3>
+                                <div><img src="./painting.jpg" alt=""></div>
+                                <div class="link">
+                                    <p><a href="https://github.com/Eskimo6666/Canvas-2"
+                                            style="color:rgba(55, 55, 235, 0.897);">a.源码链接</a></p>
+                                    <p><a href="https://eskimo6666.github.io/Canvas-2/index.html"
+                                            style="color:rgba(55, 55, 235, 0.897);">b.预览链接</a></p>
+                                </div>
+    
+                                <p><strong>c.关键词</strong>：原生JavaScript,Canvas,响应式,<strong>移动端开发</strong></p>
+                                <p><strong>d.描述</strong>：该项目使用原生JS实现，主要调用Canvas
+                                    API,实现划线，调色，橡皮擦，保存等功能。完全由我独立开发。用Canvas点之间画线解决了断点不连续问题，用获取用户屏幕尺寸解决了动态设置Canvas画布大小问题,用<strong>meta
+                                        viewport</strong>标签解决了屏幕缩放980px的问题</p>
                         </li>
                     </ul>
                 </div>
